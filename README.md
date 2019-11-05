@@ -127,7 +127,7 @@ wrote that. Then when we called `new_person.save` it created both the `Person`
 object and the two `Address` objects. Boom!
 
 Now, we just need to get our form to create a `params` hash like that. Easy
-Peasy. We are going to use `fields_for` to make this happen.
+Peasay. We are going to use `fields_for` to make this happen.
 
 ```erb
 # app/views/people/new.html.erb
